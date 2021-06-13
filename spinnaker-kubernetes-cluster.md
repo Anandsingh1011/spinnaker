@@ -45,6 +45,9 @@ hal config features edit --artifacts true
 #### Choose where to install Spinnaker
 ```
 hal config deploy edit --type distributed --account-name my-k8s
+
+hal config deploy edit --type localdebian
+
 ```
 
 ### Below command needs to be run on your local machine where you have helm binary
